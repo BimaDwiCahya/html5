@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin-top: 6px;
+      }
+      .warna {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        margin: 20px auto;
+      }
+      .nil {
+        border: 1px solid black;
+        margin-left: 20px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <img src="img/bima.jpg" alt="sebim" /> -->
+    <form action="">
+      <label for="nama">Masukkan nama:</label><br />
+      <input type="text" name="nama" id="nama" /><br />
+
+      <label for="pass">Masukkan password:</label><br />
+      <input type="password" name="pass" id="pass" /><br />
+
+      <label for="mail">Masukkan email:</label><br />
+      <input type="email" name="mail" id="mail" /><br />
+
+      <label for="area">Masukkan alamat:</label><br />
+      <textarea name="area" id="area" cols="21" rows="1"></textarea><br />
+
+      <span class="awalan">0</span
+      ><input type="range" name="slide" id="slide" /><span class="akhir"></span
+      ><br />
+
+      <input type="color" name="warna" id="warna" /><span class="nil"></span
+      ><br />
+
+      <button class="tog">click me!</button>
+      <div id="p1" tabindex="0" onclick="showAlert('halo')" role="button">
+        ini pharagrap
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
